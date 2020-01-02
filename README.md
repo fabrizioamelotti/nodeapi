@@ -34,12 +34,23 @@ Step 1 - Clone the project
 git clone https://github.com/fabrizioamelotti/nodeapi.git
 ```
 
-Step 2 - Install dependencies
+Step 2 - Go to the folder
+```
+cd nodeapi/
+```
+
+Step 3 - Install dependencies
 ```
 npm install
 ```
 
-Step 3 - Execute the project
+Step 4 - Execute the project
 ```
 npm start
 ```
+
+# Set up the Authorization token in Postman
+
+Set Bearer token: 5CD4ED173E1C95FE763B753A297D5
+
+![alt text](public/images/authToken.PNG)
