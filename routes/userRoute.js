@@ -1,8 +1,10 @@
 const express = require('express')
 const router = express.Router()
+const { checkToken } = require('../services/authService')
+const userController = require('../controllers/userController')
 
-router.get('/ping', function (req, res, next) {
-  res.send('pong')
+router.put('/create', checkToken, (req, res, next) => {
+  userController.create(res, req.body)
 })
 
 module.exports = router

@@ -1,0 +1,27 @@
+{
+  "articles": [
+    {
+      "title": "Article 1",
+      "text": "Text article 1 - with tags",
+      "tags": ["tag1", "tag11", "tag111"],
+      "owner": "Samuel"
+    },
+    {
+      "title": "Article 2",
+      "text": "Text article 2 - just one tag",
+      "tags": ["tag2"],
+      "owner": "Samuel"
+    },
+    {
+      "title": "Article 3",
+      "text": "Text article 3 - empty tags",
+      "tags": [],
+      "owner": "Angela"
+    },
+    {
+      "title": "Article 4",
+      "text": "Text article 4 - no tags attr",
+      "owner": "Angela"
+    }
+  ]
+}
