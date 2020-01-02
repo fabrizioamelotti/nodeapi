@@ -54,3 +54,7 @@ npm start
 Set Bearer token: 5CD4ED173E1C95FE763B753A297D5
 
 ![alt text](public/images/authToken.PNG)
+
+# Postman
+Import file [NodeAPI-Postman](documentation/postman/GitHub-NodeAPI.postman_collection.json) to have all the URLs.
+
